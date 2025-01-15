@@ -45,7 +45,7 @@ more complex tasks using point control. We hope that MangaNinja can accelerate t
 Clone the repository (requires git):
 
 ```bash
-git clone https://github.com/Johanan528/MangaNinjia.git
+git clone https://github.com/ali-vilab/MangaNinjia.git
 cd MangaNinjia
 ```
 
