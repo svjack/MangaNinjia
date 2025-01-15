@@ -4,7 +4,7 @@ This repository represents the official implementation of the paper titled "Mang
 
 [![Website](docs/badge-website.svg)](https://johanan528.github.io/MangaNinjia/)
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2501.08332)
-[![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-929292)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <p align="center">
     <a href="https://johanan528.github.io/"><strong>Zhiheng Liu*</strong></a>
