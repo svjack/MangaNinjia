@@ -57,17 +57,18 @@ conda env create -f environment.yaml
 conda activate MangaNinjia
 ```
 ### ⚙️ Weights
-* You could download them from HuggingFace: [stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5), [clip image encoder](https://huggingface.co/openai/clip-vit-large-patch14), [line art controlnet](https://huggingface.co/lllyasviel/control_v11p_sd15_lineart) and [line art extractor](https://huggingface.co/lllyasviel/Annotators/blob/main/sk_model.pth)
+* You could download them from HuggingFace: [StableDiffusion](https://modelscope.cn/models/AI-ModelScope/stable-diffusion-v1-5), [clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14), [control_v11p_sd15_lineart](https://huggingface.co/lllyasviel/control_v11p_sd15_lineart) and [Annotators](https://huggingface.co/lllyasviel/Annotators/blob/main/sk_model.pth)
 * You could download our [MangaNinjia model](https://huggingface.co/Johanan0528/MangaNinjia) from HuggingFace 
 * The downloaded checkpoint directory has the following structure:
 ```
-`-- checkpoints
-    |-- stable-diffusion-v1-5
-    |-- clip image encoder
-    |-- clip image encoder
-    |-- line art controlnet
-    |-- line art extractor
-    `-- MangaNinjia
+-- checkpoints
+    |-- StableDiffusion
+    |-- models
+        |-- clip-vit-large-patch14
+        |-- control_v11p_sd15_lineart
+        |-- Annotators
+            |--sk_model.pth
+    |-- MangaNinjia
         |-- denoising_unet.pth
         |-- reference_unet.pth
         |-- point_net.pth
