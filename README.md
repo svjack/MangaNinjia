@@ -61,8 +61,6 @@ python -m ipykernel install --user --name MangaNinjia --display-name "MangaNinji
 
 pip install torch
 pip install -r requirements.txt
-pip install -U gradio
-pip install huggingface_hub==0.25.0
 ```
 
 Install with `conda`: 
