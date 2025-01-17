@@ -58,6 +58,8 @@ cd MangaNinjia
 conda create -n MangaNinjia python=3.10 && conda activate MangaNinjia
 pip install ipykernel
 python -m ipykernel install --user --name MangaNinjia --display-name "MangaNinjia"
+
+pip install torch
 pip install -r requirements.txt
 ```
 
