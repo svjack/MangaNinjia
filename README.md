@@ -69,6 +69,17 @@ conda env create -f environment.yaml
 conda activate MangaNinjia
 ```
 ### ⚙️ Weights
+```bash
+git-lfs
+mkdir -p checkpoints/models
+git clone https://modelscope.cn/models/AI-ModelScope/stable-diffusion-v1-5 checkpoints/StableDiffusion
+git clone https://huggingface.co/openai/clip-vit-large-patch14 checkpoints/clip-vit-large-patch14
+git clone https://huggingface.co/lllyasviel/control_v11p_sd15_lineart checkpoints/control_v11p_sd15_lineart
+mkdir -p checkpoints/Annotators
+wget https://huggingface.co/lllyasviel/Annotators/resolve/main/sk_model.pth -O checkpoints/Annotators/sk_model.pth
+git clone https://huggingface.co/Johanan0528/MangaNinjia checkpoints/MangaNinjia
+```
+
 * You could download them from HuggingFace: [StableDiffusion](https://modelscope.cn/models/AI-ModelScope/stable-diffusion-v1-5), [clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14), [control_v11p_sd15_lineart](https://huggingface.co/lllyasviel/control_v11p_sd15_lineart) and [Annotators](https://huggingface.co/lllyasviel/Annotators/blob/main/sk_model.pth)
 * You could download our [MangaNinjia model](https://huggingface.co/Johanan0528/MangaNinjia) from HuggingFace 
 * The downloaded checkpoint directory has the following structure:
