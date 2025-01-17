@@ -46,11 +46,18 @@ more complex tasks using point control. We hope that MangaNinja can accelerate t
 Clone the repository (requires git):
 
 ```bash
-git clone https://github.com/ali-vilab/MangaNinjia.git
+git clone https://github.com/svjack/MangaNinjia.git
 cd MangaNinjia
 ```
 
 ### 💻 Dependencies
+
+```bash
+conda create -n MangaNinjia python=3.10 && conda activate MangaNinjia
+pip install ipykernel
+python -m ipykernel install --user --name MangaNinjia --display-name "MangaNinjia"
+pip install -r requirements.txt
+```
 
 Install with `conda`: 
 ```bash
