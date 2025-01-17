@@ -73,10 +73,10 @@ conda activate MangaNinjia
 git-lfs
 mkdir -p checkpoints/models
 git clone https://modelscope.cn/models/AI-ModelScope/stable-diffusion-v1-5 checkpoints/StableDiffusion
-git clone https://huggingface.co/openai/clip-vit-large-patch14 checkpoints/clip-vit-large-patch14
-git clone https://huggingface.co/lllyasviel/control_v11p_sd15_lineart checkpoints/control_v11p_sd15_lineart
-mkdir -p checkpoints/Annotators
-wget https://huggingface.co/lllyasviel/Annotators/resolve/main/sk_model.pth -O checkpoints/Annotators/sk_model.pth
+git clone https://huggingface.co/openai/clip-vit-large-patch14 checkpoints/models/clip-vit-large-patch14
+git clone https://huggingface.co/lllyasviel/control_v11p_sd15_lineart checkpoints/models/control_v11p_sd15_lineart
+mkdir -p checkpoints/models/Annotators
+wget https://huggingface.co/lllyasviel/Annotators/resolve/main/sk_model.pth -O checkpoints/models/Annotators/sk_model.pth
 git clone https://huggingface.co/Johanan0528/MangaNinjia checkpoints/MangaNinjia
 ```
 
