@@ -46,6 +46,8 @@ more complex tasks using point control. We hope that MangaNinja can accelerate t
 Clone the repository (requires git):
 
 ```bash
+sudo apt-get update && sudo apt-get install cbm ffmpeg git-lfs
+
 git clone https://github.com/svjack/MangaNinjia.git
 cd MangaNinjia
 ```
