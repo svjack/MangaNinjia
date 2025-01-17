@@ -82,6 +82,10 @@ wget https://huggingface.co/lllyasviel/Annotators/resolve/main/sk_model.pth -O c
 git clone https://huggingface.co/Johanan0528/MangaNinjia checkpoints/MangaNinjia
 ```
 
+```bash
+python run_gradio_ver5.py
+```
+
 * You could download them from HuggingFace: [StableDiffusion](https://modelscope.cn/models/AI-ModelScope/stable-diffusion-v1-5), [clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14), [control_v11p_sd15_lineart](https://huggingface.co/lllyasviel/control_v11p_sd15_lineart) and [Annotators](https://huggingface.co/lllyasviel/Annotators/blob/main/sk_model.pth)
 * You could download our [MangaNinjia model](https://huggingface.co/Johanan0528/MangaNinjia) from HuggingFace 
 * The downloaded checkpoint directory has the following structure:
